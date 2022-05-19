@@ -1,4 +1,8 @@
-# 2D Unity Game Jam Template
+# Game Jam Aotearoa 2022
+
+[Link to Jam](https://itch.io/jam/game-jam-aotearoa-2022)
+
+_Original README from [Unity 2D Game Jam Template](https://github.com/peabnuts123/Unity-2D-Jam-Template) as follows:_
 
 This is a project template for getting up-and-running quickly for game jams. It is configured for creating 2D games in Unity. Included are a bunch of common plugins, code and prefabs I use, a main menu and pause functionality, and some UI SFX. This is to save on overhead that would otherwise occur during the jam, setting up a new project and copying over any specific library code from other games.
 
