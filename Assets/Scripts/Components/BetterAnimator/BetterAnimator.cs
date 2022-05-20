@@ -1,7 +1,6 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Animations;
 using UnityEngine;
 using Zenject;
 
@@ -75,13 +74,7 @@ namespace Game.Components
             }
         }
 
-        private void _PlayAnimation(
-            string clipName,
-            bool interruptable,
-            bool overrideUninterruptable,
-            int layer = -1,
-            float normalizedStartTime = float.NegativeInfinity
-        )
+        private void _PlayAnimation(string clipName, bool interruptable, bool overrideUninterruptable, int layer = -1, float normalizedStartTime = float.NegativeInfinity)
         {
             // If the current animation requires override but none provided, do nothing
             if (currentAnimationRequiresInterruptOverride && !overrideUninterruptable)
@@ -131,24 +124,11 @@ namespace Game.Components
 
         public void RebuildAnimationClipManifest()
         {
-
-            // ((AnimatorController)animator.runtimeAnimatorController).layers[DEFAULT_ANIMATION_LAYER].stateMachine.states[0].state.name
             animationClipManifest = new Dictionary<string, AnimationClip>();
-            foreach (var animatorState in ((AnimatorController)animator.runtimeAnimatorController).layers[DEFAULT_ANIMATION_LAYER].stateMachine.states)
+            foreach (AnimationClip animationClip in animator.runtimeAnimatorController.animationClips)
             {
-                if (animatorState.state.motion is AnimationClip animationClip)
-                {
-                    animationClipManifest[animatorState.state.name] = animationClip;
-                }
-                else
-                {
-                    Debug.LogWarning($"[{name}] Animator has non-AnimationClip Motion: {animatorState.state.motion.GetType()} \"{animatorState.state.name}\". Not adding to animation clip manifest.");
-                }
+                animationClipManifest[animationClip.name] = animationClip;
             }
-            // foreach (AnimationClip animationClip in animator.runtimeAnimatorController.animationClips)
-            // {
-            //     animationClipManifest[animationClip.name] = animationClip;
-            // }
         }
 
         public AnimationClip GetCurrentAnimationClip()

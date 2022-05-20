@@ -53,7 +53,7 @@ public class Jumpable : MonoBehaviour
 
     private RaycastHit2D RaycastGround()
     {
-        int numResults = groundCollider.Cast(Vector2.down, raycastResults, groundCollider.bounds.extents.y);
+        int numResults = groundCollider.Cast(Vector2.down, raycastResults, groundCollider.bounds.extents.y / 2F);
 
         // Find the shortest result
         RaycastHit2D minResult = default(RaycastHit2D);

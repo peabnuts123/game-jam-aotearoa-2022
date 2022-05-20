@@ -11,15 +11,11 @@ namespace Game.Entities
         [SerializeField]
         private Transform target;
 
-        // Private references
-        private new Camera camera;
-
         // Private state
         private Vector3 targetPosition;
 
         void Start()
         {
-            camera = GetComponent<Camera>();
 
             // Initialise Camera at target position
             UpdateTargetPosition();
