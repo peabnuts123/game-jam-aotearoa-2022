@@ -102,3 +102,38 @@ The project has the following structure:
          # All sorts of raw coding logic that exists as
          #   a utility for other code
 ```
+
+
+## Backlog / @TODO
+
+  - Goal item
+    - ~~TOUCH~~
+    - Level complete menu
+  - Time mechanic
+    - ~~Always increasing~~
+    - UI to show current time
+    - ~~Background colour animated ~~based on time
+    - ~~Sun / Moon sprite animated on time~~
+  - Shark
+    - Jump animation
+    - Idle animation
+    - Attack
+  - Enemies
+    - Rat
+    - Ghost
+    - Enemies drop coins when killed
+    - Touching an enemy takes damage, blinks
+  - Coin item
+    - ~~TOUCH~~
+    - Actually collect coin into a total
+  - Key item
+    - Shark hold key item
+  - Locked door block
+    - Touching locked door while holding key unlocks / deletes
+  - UI
+    - Instructional main menu
+    - Num coins
+    - Hearts / Health
+  - Power loops
+    - Spend coins on main menu
+    - Vanity items
