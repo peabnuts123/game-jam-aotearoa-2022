@@ -76,6 +76,7 @@ namespace Game.Entities
 
         public void OnBonkEnemy()
         {
+            Debug.Log($"[{name}] Bonk'd a guy");
             jumpable.AttemptJump();
         }
     }

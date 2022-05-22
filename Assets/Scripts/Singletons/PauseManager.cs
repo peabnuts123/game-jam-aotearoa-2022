@@ -8,6 +8,15 @@ public class PauseManager : MonoBehaviour
 
     // Private state
     private bool isGamePaused = false;
+    private bool isGameOver = false;
+
+    public void SetGameOver(bool isGameOver)
+    {
+        // Game over implies paused
+        this.isGameOver = isGameOver;
+        SetGamePaused(isGameOver);
+        pauseMenu.SetActive(false);
+    }
 
     public void SetGamePaused(bool isPaused)
     {
@@ -26,7 +35,7 @@ public class PauseManager : MonoBehaviour
 
     public void Update()
     {
-        if (Input.GetButtonDown("Cancel"))
+        if (Input.GetButtonDown("Cancel") && !isGameOver)
         {
             SetGamePaused(!this.isGamePaused);
         }
@@ -36,7 +45,7 @@ public class PauseManager : MonoBehaviour
     {
         // If the PauseManager is destroyed (e.g. changing scenes),
         //  unpause the game
-        this.SetGamePaused(false);
+        Time.timeScale = 1;
     }
 
     public bool IsPaused
