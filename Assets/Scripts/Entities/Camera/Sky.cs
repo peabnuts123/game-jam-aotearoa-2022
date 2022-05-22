@@ -9,7 +9,7 @@ namespace Game.Entities
         public const float TIME_SUN_START_SETTING_MOON_START_RISING = 14F / 24F;
         public const float TIME_SUN_START_PEAK = 12F / 24F;
         public const float TIME_MOON_START_SETTING_SUN_START_RISING = 2F / 24F;
-        public const float TIME_MOON_START_PEAK = 24F/24F;
+        public const float TIME_MOON_START_PEAK = 24F / 24F;
 
         // Public config
         [SerializeField]
@@ -36,6 +36,14 @@ namespace Game.Entities
         [Inject]
         private TimeController timeController;
 
+        void Start()
+        {
+            timeController.OnDayTime -= OnDayTime;
+            timeController.OnDayTime += OnDayTime;
+            timeController.OnNightTime -= OnNightTime;
+            timeController.OnNightTime += OnNightTime;
+        }
+
         void Update()
         {
             if (timeController.CurrentTimePercentage >= TIME_SUN_START_SETTING_MOON_START_RISING)
@@ -44,12 +52,6 @@ namespace Game.Entities
                 float t = Mathf.InverseLerp(TIME_SUN_START_SETTING_MOON_START_RISING, TIME_MOON_START_PEAK, timeController.CurrentTimePercentage);
                 moon.transform.localPosition = TValueToPosition(t);
                 sun.transform.localPosition = TValueToPosition(1 - t);
-
-                if (t > 0.5F)
-                {
-                    // Moon rising
-                    camera.backgroundColor = nighttimeBackgroundColor;
-                }
             }
             else if (timeController.CurrentTimePercentage >= TIME_SUN_START_PEAK)
             {
@@ -63,12 +65,6 @@ namespace Game.Entities
                 float t = Mathf.InverseLerp(TIME_MOON_START_SETTING_SUN_START_RISING, TIME_SUN_START_PEAK, timeController.CurrentTimePercentage);
                 sun.transform.localPosition = TValueToPosition(t);
                 moon.transform.localPosition = TValueToPosition(1 - t);
-
-                if (t > 0.5F)
-                {
-                    // Sun rising
-                    camera.backgroundColor = daytimeBackgroundColor;
-                }
             }
             else if (timeController.CurrentTimePercentage >= TIME_MOON_START_PEAK)
             {
@@ -87,6 +83,15 @@ namespace Game.Entities
         /// </summary>
         /// <param name="t">Lerp value. 1 = Full apogee. 0 = Full perigee.</param>
         private Vector3 TValueToPosition(float t) => Vector3.Lerp(CelestialPerigee, CelestialApogee, t);
+
+        private void OnDayTime()
+        {
+            camera.backgroundColor = daytimeBackgroundColor;
+        }
+        private void OnNightTime()
+        {
+            camera.backgroundColor = nighttimeBackgroundColor;
+        }
 
         // Properties
         private Vector3 CelestialApogee => celestialApogeeTransform.localPosition;

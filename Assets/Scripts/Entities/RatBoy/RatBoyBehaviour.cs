@@ -15,6 +15,7 @@ namespace Game.Entities
 
         // Private state
         private bool invulnerable = false;
+        private bool dead = false;
 
         // Lifecycle
         void Update()
@@ -35,11 +36,13 @@ namespace Game.Entities
             {
                 Debug.Log($"[{name}] Got bonk'd!");
                 Destroy(gameObject);
+                dead = true;
             }
         }
 
         public void OnAttackPlayer(PlayerController player)
         {
+            if (dead) return;
             Debug.Log($"[{name}] Attacking the boy!! {player.name}");
             player.OnAttacked(gameObject);
 
