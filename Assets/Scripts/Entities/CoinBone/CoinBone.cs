@@ -1,3 +1,4 @@
+using Game.Config;
 using UnityEngine;
 
 namespace Game.Entities

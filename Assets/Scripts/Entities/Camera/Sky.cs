@@ -20,7 +20,7 @@ namespace Game.Entities
         // Public references
         [NotNull]
         [SerializeField]
-        private Camera camera;
+        private new Camera camera;
         [NotNull]
         [SerializeField]
         private Transform moon;

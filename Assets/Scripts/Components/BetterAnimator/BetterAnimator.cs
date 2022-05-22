@@ -18,14 +18,23 @@ namespace Game.Components
 
         // Private state
         private Dictionary<string, AnimationClip> animationClipManifest;
-        private string currentAnimationStateName;
-        private bool currentAnimationRequiresInterruptOverride = false;
-        private IEnumerator currentAnimationCallback;
+        // private string currentAnimationStateName;
+        private string[] currentAnimationStates;
+        // private bool currentAnimationRequiresInterruptOverride = false;
+        private bool[] layerCurrentlyRequiresInterruptOverride;
+        private IEnumerator[] layerCurrentAnimationCallback;
 
         void Start()
         {
             RebuildAnimationClipManifest();
-            currentAnimationStateName = GetCurrentAnimationClip()?.name;
+            // currentAnimationStateName = GetCurrentAnimationClip(DEFAULT_ANIMATION_LAYER)?.name;
+            currentAnimationStates = new string[animator.layerCount];
+            for (int i = 0; i < animator.layerCount; i++)
+            {
+                currentAnimationStates[i] = GetCurrentAnimationClip(i)?.name;
+            }
+            layerCurrentlyRequiresInterruptOverride = new bool[animator.layerCount];
+            layerCurrentAnimationCallback = new IEnumerator[animator.layerCount];
         }
 
         /// <summary>
@@ -39,7 +48,8 @@ namespace Game.Components
             bool interruptSelf = false,
             bool continueFromCurrentTime = false,
             bool interruptable = true,
-            bool overrideUninterruptable = false
+            bool overrideUninterruptable = false,
+            int layer = DEFAULT_ANIMATION_LAYER
         )
         {
             if (interruptSelf)
@@ -47,37 +57,43 @@ namespace Game.Components
                 // Explicitly specify start time, allows interrupting of self
                 // Allows interrupting clips played with `interruptable = true` if it is the same as
                 //  the clip being requested
-
-                _PlayAnimation(clipName, interruptable, overrideUninterruptable || clipName == currentAnimationStateName, normalizedStartTime: 0);
+                _PlayAnimation(clipName, interruptable, overrideUninterruptable || clipName == currentAnimationStates[layer], layer, normalizedStartTime: 0);
             }
             else if (continueFromCurrentTime)
             {
                 // Play a different animation but continue from the current timestamp
 
-                var stateInfo = animator.GetCurrentAnimatorStateInfo(DEFAULT_ANIMATION_LAYER);
+                var stateInfo = animator.GetCurrentAnimatorStateInfo(layer);
 
-                AnimationClip currentClip = GetCurrentAnimationClip();
-                float currentTimeOffset = stateInfo.normalizedTime * currentClip.length;
-
+                AnimationClip currentClip = GetCurrentAnimationClip(layer);
+                float currentTimeOffset;
+                if (currentClip != null)
+                {
+                    currentTimeOffset = stateInfo.normalizedTime * currentClip.length;
+                }
+                else
+                {
+                    // No clip currently playing so just default to 0
+                    currentTimeOffset = 0;
+                }
                 AnimationClip newClip = GetAnimationClip(clipName);
                 float newTimeOffsetNormalized = currentTimeOffset / newClip.length;
-
-                _PlayAnimation(newClip.name, interruptable, overrideUninterruptable, normalizedStartTime: newTimeOffsetNormalized);
+                _PlayAnimation(newClip.name, interruptable, overrideUninterruptable, layer, normalizedStartTime: newTimeOffsetNormalized);
             }
             else
             {
                 // Just play an animation
                 // If the animation is the same as the one playing, it will do nothing
                 // if the animation is different than the one playing, it will start from the beginning
-
-                _PlayAnimation(clipName, interruptable, overrideUninterruptable);
+                _PlayAnimation(clipName, interruptable, overrideUninterruptable, layer);
             }
         }
 
-        private void _PlayAnimation(string clipName, bool interruptable, bool overrideUninterruptable, int layer = -1, float normalizedStartTime = float.NegativeInfinity)
+        // @TODO rename `clipName` to `stateName`
+        private void _PlayAnimation(string clipName, bool interruptable, bool overrideUninterruptable, int layer, float normalizedStartTime = float.NegativeInfinity)
         {
             // If the current animation requires override but none provided, do nothing
-            if (currentAnimationRequiresInterruptOverride && !overrideUninterruptable)
+            if (layerCurrentlyRequiresInterruptOverride[layer] && !overrideUninterruptable)
             {
                 return;
             }
@@ -87,7 +103,8 @@ namespace Game.Components
 
             // Trigger the animation
             animator.Play(clipName, layer, normalizedStartTime);
-            currentAnimationStateName = clipName;
+            // currentAnimationStateName = clipName;
+            currentAnimationStates[layer] = clipName;
 
             // If the animation is marked as "uninterruptable", kick off a timer to mark current clip as such until
             //  the clip ends. If the clip loops, it will become interruptable after its first play-through. The
@@ -95,30 +112,30 @@ namespace Game.Components
             if (!interruptable)
             {
                 // Stop any existing "uninterruptable" timer (as the override has been provided)
-                if (currentAnimationCallback != null)
+                if (layerCurrentAnimationCallback[layer] != null)
                 {
-                    StopCoroutine(currentAnimationCallback);
+                    StopCoroutine(layerCurrentAnimationCallback[layer]);
                 }
 
                 // The clip we have just triggered (we need it to know how long to wait i.e. its length)
                 AnimationClip newClip = animationClipManifest[clipName];
 
                 // Mark as "uninterruptable" / requiring override
-                currentAnimationRequiresInterruptOverride = true;
+                layerCurrentlyRequiresInterruptOverride[layer] = true;
 
                 // Kick off timer with callback for when timer completes
-                currentAnimationCallback = WaitForAnimationFinishCoroutine(normalizedStartTime, newClip, () =>
+                layerCurrentAnimationCallback[layer] = WaitForAnimationFinishCoroutine(normalizedStartTime, newClip, () =>
                 {
-                    currentAnimationCallback = null;
-                    currentAnimationRequiresInterruptOverride = false;
+                    layerCurrentAnimationCallback[layer] = null;
+                    layerCurrentlyRequiresInterruptOverride[layer] = false;
                 });
-                StartCoroutine(currentAnimationCallback);
+                StartCoroutine(layerCurrentAnimationCallback[layer]);
             }
         }
 
         private IEnumerator WaitForAnimationFinishCoroutine(float normalizedStartTime, AnimationClip animationClip, Action onComplete)
         {
-            yield return new WaitForSeconds(animationClip.length * (1F - normalizedStartTime));
+            yield return new WaitForSeconds(animationClip.length * (1F - Mathf.Max(normalizedStartTime, 0)));
             onComplete();
         }
 
@@ -131,12 +148,16 @@ namespace Game.Components
             }
         }
 
-        public AnimationClip GetCurrentAnimationClip()
+        public AnimationClip GetCurrentAnimationClip(int layer)
         {
-            var currentClips = animator.GetCurrentAnimatorClipInfo(DEFAULT_ANIMATION_LAYER);
+            var currentClips = animator.GetCurrentAnimatorClipInfo(layer);
 
             // Early return to prevent extra work
-            if (currentClips.Length == 1)
+            if (currentClips.Length == 0)
+            {
+                return null;
+            }
+            else if (currentClips.Length == 1)
             {
                 return currentClips[0].clip;
             }
@@ -164,5 +185,7 @@ namespace Game.Components
         {
             return animationClipManifest[clipName];
         }
+
+        public Animator RawAnimator => animator;
     }
 }

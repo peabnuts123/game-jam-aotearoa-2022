@@ -1,5 +1,6 @@
 using Game.Components;
 using UnityEngine;
+using Zenject;
 
 namespace Game.Entities
 {
@@ -16,18 +17,31 @@ namespace Game.Entities
         [SerializeField]
         private Jumpable jumpable;
 
+        // Private references
+        [Inject]
+        private Rigidbody2D rigidBody;
+
+        // Private state
+        private bool invulnerable = false;
+        private bool frozen = false;
+
         void Update()
         {
             float hMovement = Input.GetAxis("Horizontal");
 
-            // Update "movable" to move the player
-            movable.SetHorizontalVelocityPercentage(hMovement);
+            if (!frozen)
+            {
+                // Update "movable" to move the player
+                movable.SetHorizontalVelocityPercentage(hMovement);
+            }
 
             if (Mathf.Abs(hMovement) > 0.01F)
             {
                 // Player is moving
                 animator.SetAnimation("shark_run");
-            } else {
+            }
+            else
+            {
                 // Player is NOT moving
                 animator.SetAnimation("shark_idle");
             }
@@ -36,6 +50,33 @@ namespace Game.Entities
             {
                 jumpable.AttemptJump();
             }
+        }
+
+        public void OnAttacked(GameObject other)
+        {
+            if (!invulnerable)
+            {
+                rigidBody.AddForce((transform.position - other.transform.position + Vector3.up).WithLength(2000), ForceMode2D.Impulse);
+                animator.SetAnimation("shark_damage", layer: 1, interruptable: false);
+
+                // I frames
+                invulnerable = true;
+                frozen = true;
+                StartCoroutine(this.Timeout(1, () =>
+                {
+                    invulnerable = false;
+                    animator.SetAnimation("default", layer: 1);
+                }));
+                StartCoroutine(this.Timeout(0.5F, () =>
+                {
+                    frozen = false;
+                }));
+            }
+        }
+
+        public void OnBonkEnemy()
+        {
+            jumpable.AttemptJump();
         }
     }
 }

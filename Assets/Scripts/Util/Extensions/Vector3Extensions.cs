@@ -15,4 +15,11 @@ public static class Vector3Extensions
     {
         return new Vector3(self.x, self.y, newZ);
     }
+
+    public static Vector3 WithLength(this Vector3 self, float length)
+    {
+        var result = self.normalized;
+        result.Scale(new Vector3(length, length, length));
+        return result;
+    }
 }
