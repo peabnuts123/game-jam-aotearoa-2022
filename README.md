@@ -107,33 +107,51 @@ The project has the following structure:
 ## Backlog / @TODO
 
   - Goal item
-    - ~~TOUCH~~
-    - Level complete menu
+    - God rays
+    - Don't immediately pause the game
+    - Go to next level
   - Time mechanic
-    - ~~Always increasing~~
     - UI to show current time
-    - ~~Background colour animated ~~based on time
-    - ~~Sun / Moon sprite animated on time~~
+    - Swap out tiles at night
   - Shark
-    - Jump animation
-    - Idle animation
-    - Attack
-  - Enemies
-    - Rat
-    - Ghost
+    - Use new animations
+    - Different animations at night
+    - Attack move
+    - Have health / die
+  - SFX
+    - Shark move
+    - Shark jump
+    - Shark take damage
+    - Ratboy attack
+    - Ghostcat attack
+    - Ghostcat aggro
+    - Collect coin
+  - Music
+    - @TODO
+  - RatBoy
+    - Fix bugs
+    - Get hit from below, don't yeet
+    - Drop coins on die
+  - GhostCat
     - Enemies drop coins when killed
     - Touching an enemy takes damage, blinks
   - Coin item
-    - ~~TOUCH~~
     - Actually collect coin into a total
+    - Display coin total on screen
+    - Use new animation
   - Key item
     - Shark hold key item
   - Locked door block
-    - Touching locked door while holding key unlocks / deletes
+    - Touching locked door while holding key unlocks
+    - Drop 2 halves of door as physics items for a second
+  - Main menu
+    - Instructions / art / how to play
+    - Credits screen
+    - Level select / unlocking
   - UI
-    - Instructional main menu
     - Num coins
     - Hearts / Health
+    - Time of day
   - Power loops
     - Spend coins on main menu
     - Vanity items
