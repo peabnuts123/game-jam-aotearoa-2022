@@ -35,20 +35,28 @@ namespace Game.Entities
                 movable.SetHorizontalVelocityPercentage(hMovement);
             }
 
-            if (Mathf.Abs(hMovement) > 0.01F)
+            if (jumpable.IsGrounded())
             {
-                // Player is moving
-                animator.SetAnimation("shark_run");
+                if (Mathf.Abs(hMovement) > 0.01F)
+                {
+                    // Player is moving
+                    animator.SetAnimation("shark_run");
+                }
+                else
+                {
+                    // Player is NOT moving
+                    animator.SetAnimation("shark_idle");
+                }
             }
             else
             {
-                // Player is NOT moving
-                animator.SetAnimation("shark_idle");
+                animator.SetAnimation("shark_jump");
             }
 
             if (Input.GetButtonDown("Jump"))
             {
                 jumpable.AttemptJump();
+                animator.SetAnimation("shark_jump", interruptSelf: true);
             }
         }
 
@@ -78,6 +86,7 @@ namespace Game.Entities
         {
             Debug.Log($"[{name}] Bonk'd a guy");
             jumpable.AttemptJump();
+            animator.SetAnimation("shark_jump", interruptSelf: true);
         }
     }
 }

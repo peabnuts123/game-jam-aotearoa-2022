@@ -1,0 +1,1762 @@
+fileFormatVersion: 2
+guid: 962629081b5304792a02d20e3cbf82b6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 2
+    wrapV: 2
+    wrapW: 2
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 40
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 947
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7854bc90dad2f463b98372b3add71f46
+      internalID: 1656289019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 947
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b10029b800834f29b76fc9152f829c0
+      internalID: 54797063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 947
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898b88c0fdb3d4072a01e7b332ecb44b
+      internalID: 465956838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_3
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 947
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454510423bdb8403abcb9d5e15e890e9
+      internalID: -1225973204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_4
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 947
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d28b267b3724d2fa38446226b3f4a7
+      internalID: 228283076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_5
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 947
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26405ef1f60524dd4ac229c6975bd80f
+      internalID: -802631736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_6
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 947
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ee4529936454fdca67812da7c28333
+      internalID: 635446052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_7
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 947
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf28c324a15545faa8ce8be80353eca
+      internalID: -1238338916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_8
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 906
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699cad48791f34e8d8e1970fa4ec6e0a
+      internalID: 468527954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_9
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 906
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e23c0955f4846f18df21fdcc51c5f8
+      internalID: -1233688323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_10
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 906
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e83a83fdadd4b0ab5f8946529332a9
+      internalID: 281825028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_11
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 906
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f044913660741dca2cfadc9f525012
+      internalID: 1524119317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_12
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 906
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066ec3306349b45d1ad072988c771ed8
+      internalID: -1835929797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_13
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 906
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b459e94f668b743b9ae64227a969e992
+      internalID: -646967914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_14
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 906
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e981e91ffb2f0421cace08016bc83147
+      internalID: 161015427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_15
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 906
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ab3d9a2e0974fdca3c13af4a88691a
+      internalID: 1927946305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_16
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 865
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2065551fd06af4cf7ba243729863447a
+      internalID: 1586141669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_17
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 865
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b50ecb543c9485fa471949e7fe2a61
+      internalID: 1355930551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_18
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 865
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14cccc10f6484a16821e77e05b68fba
+      internalID: -2016319759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_19
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 865
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44419887a5cb941bbb318169b8594a99
+      internalID: 679374594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_20
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 824
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ebf6bfdcad24ba09ad2a8caad09d13
+      internalID: 1035442829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_21
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 824
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff240d3b1a71c496f91b0eeb894fa5a3
+      internalID: 164727977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_22
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 824
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d41731aa031d44c5953f596d24337bb
+      internalID: 181183230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_23
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 824
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b77d1affa8d4e9993266ec85c358c8
+      internalID: -597849777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_24
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 783
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202a6f459e6004ec5b958ac58d63fe27
+      internalID: 1493981986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_25
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 783
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5aef04423359417a9839f31d52251c8
+      internalID: 712270267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_26
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 783
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21de353538e74effb36edcc26863212
+      internalID: 1455119546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_27
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 783
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd2a5222ae6342ed94da70c237ccd30
+      internalID: 1115869849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_28
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 783
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82eda808054b84d88bab60f3a6f17e27
+      internalID: -669606742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_29
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 783
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419f4932a3636484d9ed996f9dd86248
+      internalID: -639301594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_30
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 783
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce804b23feb541f2b29e0f58d990a5c
+      internalID: -999122980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_31
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 783
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80dcff357265a491ea9a78346be3db68
+      internalID: -1764936833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_32
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 783
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f816391652d35475ca8664f1e0919c9a
+      internalID: 2005813012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_33
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 783
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e81b5ea6be14ed8969e9ca317135d9
+      internalID: 876704156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_34
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 783
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9345e4dc820a4f0dbd1726e7e886e04
+      internalID: 1406011358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_35
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 783
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77fc4d5b4f0d40bd99dab48d340ab99
+      internalID: -481178826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_36
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 783
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb3df107aa9c48aca63520a41977ff1
+      internalID: -1885841331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_37
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 742
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3500e6843c07a47ec97c7cdb709fdb81
+      internalID: 156137247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_38
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 742
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e3898f8a1ba4972839b385d74c2911
+      internalID: -319190848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_39
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 742
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58ba5897ed474c09b570749bd55a514
+      internalID: -1845087576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_40
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 742
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07fc7659cb31a4e65a34619d0addbb7b
+      internalID: 663812037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_41
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 742
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72c2d7684d574c99a50606fbe096e97
+      internalID: 1718009525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_42
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 742
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34babe305b14e48f093ae7431ab1385f
+      internalID: -1553969453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_43
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 742
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ea511bad0b04638b3c93dcafd3617f
+      internalID: -82229931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_44
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 742
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7a42d298483454eaa7633acc29139c
+      internalID: 312436125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_45
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 742
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043c32ad0f3b24b2dbe184af0a9cf151
+      internalID: 143880137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_46
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 742
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc342ba968ca043659fb5815331d6002
+      internalID: -1010159369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_47
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 742
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31972e714fb774cf9829073b90684695
+      internalID: -2145500705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_48
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 742
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df6f782617c24b42a6bbee8356fa669
+      internalID: -92153519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_49
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 742
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e83d29be569f49dc9645315e42af636
+      internalID: -1017677895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_50
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 701
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71dac6f2605084fd38c16030a672251b
+      internalID: 377009448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_51
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 701
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8edc3f0680594650afa3c6cad7caa3f
+      internalID: 1222231415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_52
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 701
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05418b9f4b4b2462494251cbb5ea9612
+      internalID: -577611365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_53
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 701
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d20e46f8843d143aa86394527da717e4
+      internalID: 697858956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_54
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 701
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c029085509b64cba95a976a04cb5f78
+      internalID: -18098697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_55
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 701
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5002afed5c2d462ea92a28dc85b491e
+      internalID: 1656972286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_56
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 701
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50fab75ea9614438ea044a7e419991c7
+      internalID: 1829097065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_57
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 701
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4ec04bd1fd6466e972522a5263f39d
+      internalID: -76235075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_58
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 660
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7ffcde369c6410c8aa681d1b81fa16
+      internalID: -1983837206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_59
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 660
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c00cd2c79b014be0b7a293e845585be
+      internalID: 1775432094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_60
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 660
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409a485ade58140e69fdf4a8235c329a
+      internalID: -1792714939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_61
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 660
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454432b57ab344048ae8448287593306
+      internalID: 1531133723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_62
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 660
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e10d61ea6e984b5a82f32bd5f59a689
+      internalID: -1919656844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_63
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 660
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42a6e4e7f2f844b1b752b45e6cc1d60
+      internalID: -1382635800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_64
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 660
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777d95a86a79c48c1a28e49e17e3eef5
+      internalID: 1685007929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_65
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 660
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f78b30346804452887d4f997b64884
+      internalID: -1030254770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_66
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 619
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e2ed64689e7460a85165089c8fde78
+      internalID: 1799737708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_67
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 619
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a0d076aff774d05aa96921e22ed928
+      internalID: -898542453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_68
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 619
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea97a546113294651b20a8f1b722daec
+      internalID: 1036360281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_69
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 619
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3e50e5ac47544149d949b83e7c088b
+      internalID: 1304737543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_70
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 578
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b53836c912d84ab191d37f6fa7c5eb1
+      internalID: 1052622157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_71
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 578
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a736f8f7726394ecbada8b17bbf13e38
+      internalID: 2045340489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_72
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 578
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0a07932eb474b969ddb23a55c54eac
+      internalID: 510515501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_shark_combined_73
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 578
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8649510adb4d14560ac6240334400148
+      internalID: -98712098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Spritesheet_shark_combined_1: 54797063
+      Spritesheet_shark_combined_9: -1233688323
+      Spritesheet_shark_combined_26: 1455119546
+      Spritesheet_shark_combined_0: 1656289019
+      Spritesheet_shark_combined_19: 679374594
+      Spritesheet_shark_combined_40: 663812037
+      Spritesheet_shark_combined_50: 377009448
+      Spritesheet_shark_combined_34: 1406011358
+      Spritesheet_shark_combined_15: 1927946305
+      Spritesheet_shark_combined_73: -98712098
+      Spritesheet_shark_combined_22: 181183230
+      Spritesheet_shark_combined_20: 1035442829
+      Spritesheet_shark_combined_48: -92153519
+      Spritesheet_shark_combined_55: 1656972286
+      Spritesheet_shark_combined_49: -1017677895
+      Spritesheet_shark_combined_62: -1919656844
+      Spritesheet_shark_combined_60: -1792714939
+      Spritesheet_shark_combined_21: 164727977
+      Spritesheet_shark_combined_39: -1845087576
+      Spritesheet_shark_combined_35: -481178826
+      Spritesheet_shark_combined_54: -18098697
+      Spritesheet_shark_combined_61: 1531133723
+      Spritesheet_shark_combined_56: 1829097065
+      Spritesheet_shark_combined_38: -319190848
+      Spritesheet_shark_combined_65: -1030254770
+      Spritesheet_shark_combined_32: 2005813012
+      Spritesheet_shark_combined_3: -1225973204
+      Spritesheet_shark_combined_59: 1775432094
+      Spritesheet_shark_combined_12: -1835929797
+      Spritesheet_shark_combined_70: 1052622157
+      Spritesheet_shark_combined_67: -898542453
+      Spritesheet_shark_combined_36: -1885841331
+      Spritesheet_shark_combined_51: 1222231415
+      Spritesheet_shark_combined_64: 1685007929
+      Spritesheet_shark_combined_4: 228283076
+      Spritesheet_shark_combined_17: 1355930551
+      Spritesheet_shark_combined_30: -999122980
+      Spritesheet_shark_combined_37: 156137247
+      Spritesheet_shark_combined_46: -1010159369
+      Spritesheet_shark_combined_31: -1764936833
+      Spritesheet_shark_combined_47: -2145500705
+      Spritesheet_shark_combined_29: -639301594
+      Spritesheet_shark_combined_41: 1718009525
+      Spritesheet_shark_combined_53: 697858956
+      Spritesheet_shark_combined_63: -1382635800
+      Spritesheet_shark_combined_11: 1524119317
+      Spritesheet_shark_combined_7: -1238338916
+      Spritesheet_shark_combined_14: 161015427
+      Spritesheet_shark_combined_42: -1553969453
+      Spritesheet_shark_combined_18: -2016319759
+      Spritesheet_shark_combined_72: 510515501
+      Spritesheet_shark_combined_8: 468527954
+      Spritesheet_shark_combined_25: 712270267
+      Spritesheet_shark_combined_43: -82229931
+      Spritesheet_shark_combined_68: 1036360281
+      Spritesheet_shark_combined_57: -76235075
+      Spritesheet_shark_combined_24: 1493981986
+      Spritesheet_shark_combined_66: 1799737708
+      Spritesheet_shark_combined_33: 876704156
+      Spritesheet_shark_combined_45: 143880137
+      Spritesheet_shark_combined_10: 281825028
+      Spritesheet_shark_combined_44: 312436125
+      Spritesheet_shark_combined_13: -646967914
+      Spritesheet_shark_combined_16: 1586141669
+      Spritesheet_shark_combined_2: 465956838
+      Spritesheet_shark_combined_52: -577611365
+      Spritesheet_shark_combined_58: -1983837206
+      Spritesheet_shark_combined_71: 2045340489
+      Spritesheet_shark_combined_69: 1304737543
+      Spritesheet_shark_combined_27: 1115869849
+      Spritesheet_shark_combined_5: -802631736
+      Spritesheet_shark_combined_23: -597849777
+      Spritesheet_shark_combined_28: -669606742
+      Spritesheet_shark_combined_6: 635446052
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
