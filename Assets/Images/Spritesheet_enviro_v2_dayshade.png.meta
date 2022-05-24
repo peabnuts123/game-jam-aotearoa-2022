@@ -119,12 +119,12 @@ TextureImporter:
       name: Spritesheet_enviro_v2_dayshade_0
       rect:
         serializedVersion: 2
-        x: 55
-        y: 947
+        x: 17
+        y: 742
         width: 40
-        height: 43
+        height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -140,12 +140,12 @@ TextureImporter:
       name: Spritesheet_enviro_v2_dayshade_1
       rect:
         serializedVersion: 2
-        x: 11
-        y: 947
-        width: 43
-        height: 43
+        x: 58
+        y: 742
+        width: 40
+        height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -153,6 +153,1547 @@ TextureImporter:
       bones: []
       spriteID: c10389c951bfd484db2708c0cc836bc2
       internalID: -1533590796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 742
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90fc3a05dd72942fcba0521ea7b47c0c
+      internalID: 1533048158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_3
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 742
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e64e1d2017e6491ca998e12fa025ecb
+      internalID: 830733763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_4
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 742
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76c407a1f9e44d9cbdedba87d34ea2b
+      internalID: -1354854660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_5
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 742
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd08eb69af164585b7d2f5274df0019
+      internalID: -1945100245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_6
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 742
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e68b25f960d8490b8f34eb1c23747ff
+      internalID: -2035333503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_7
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 742
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e06e238dd36c476a87fa314a3fdc05e
+      internalID: -2135400830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_8
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 742
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f849d4731f264c909465d31519aef8d
+      internalID: 257730310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_9
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 742
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef90c03014a648e880514d0d82bfbf7
+      internalID: 1420600572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_10
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 742
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9bed44c66a74bbd82112135020d4f5
+      internalID: -150441943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_11
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 742
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c69f081fc3f943e78540c9ae156ed29
+      internalID: -1584424669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_12
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 742
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3162e93a2bf684e51af167b6eb6d6670
+      internalID: 1788876062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_13
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 701
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de46a046459b841088d12bb2b3b39efd
+      internalID: 628762566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_14
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 701
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25ad7f0f3944473eb7abcbc074e0426
+      internalID: 2146125237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_15
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 701
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299a00cddda964b99870439047f5b064
+      internalID: -1502088658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_16
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 701
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e2a6bdb33494c21840a100c338055f
+      internalID: -1283249954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_17
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 701
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab76bcd7953004fcbac8285983f6b82c
+      internalID: -1669256436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_18
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 701
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433b2f8f9e2674d638dc36ea13490611
+      internalID: 725045203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_19
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 701
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3473dec569e984b4cb6c07fef533a594
+      internalID: -991255982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_20
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 701
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04070d1b56444aeaaea2025b03a36dc
+      internalID: 2097508125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_21
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 701
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a495bb6f31fe47c2b9cfa0223d5f085
+      internalID: -2012898293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_22
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 701
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24c3c558fbd240a9ae68cec0392c806
+      internalID: -963702322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_23
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 701
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c211555275c0450d88fd2ff57ede176
+      internalID: 1622232171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_24
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 701
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708cb2cfb11024fff99d545766194ea6
+      internalID: -834189003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_25
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 701
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6617f0b7412c84ca4b40326c58c6955e
+      internalID: 1103352331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_26
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 660
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67350885331e4ddbbf5cb934109c93c
+      internalID: 1165304152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_27
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 660
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b54da0066e249f380f284691f886a8
+      internalID: 571899578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_28
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 660
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c941e1eca08354e7a94683ecd81f0afc
+      internalID: -325446615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_29
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 660
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d8a68bc6c7840db8da381a266a1076
+      internalID: 1693062382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_30
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 660
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f965c1eeff02646c9a01d9ffe1a6d5a0
+      internalID: 514835279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_31
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 660
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b06eef06143441e1885106dcf35dc19
+      internalID: 952980853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_32
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 660
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ee0d7a010194ce7b726846b41e4f54
+      internalID: -1794430991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_33
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 660
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1f5a1c93f714ccda9a542466b9f0fe
+      internalID: -489570457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_34
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 660
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62727c9adc5474ce2b6ba607da480a4b
+      internalID: 951750492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_35
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 660
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e083ad8cc05f4b82bbc4aeb88f47e5a
+      internalID: 634642634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_36
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 660
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e5bfef4e99444dda17c3235c0e52e8
+      internalID: 434805094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_37
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 660
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22efc01ba86c242708d191115f481a6f
+      internalID: 1324804037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_38
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 660
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bfb5578f00de4b3caed77f53a1a1225
+      internalID: 626874791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_39
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 619
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ca591399c7045d5a51ea8fb8107eeb
+      internalID: -1222758657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_40
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 619
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560d8f7ee921748c1a2af29216ac9183
+      internalID: 886683275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_41
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 619
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636c31311be104d6ea7aba1b0a69a0fb
+      internalID: -1566364119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_42
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 619
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95edd38051bc4353bf9a81efac5f053
+      internalID: 1696047263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_43
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 619
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a144e24a3a0864aec9702b551a1630c1
+      internalID: 1600684172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_44
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 619
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e17523fa80664510a9af4d07a80bb26
+      internalID: -797401603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_45
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 619
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c981b594bcf1a499da4d75684590629b
+      internalID: -1565284214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_46
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 947
+        width: 43
+        height: 43
+      alignment: 9
+      pivot: {x: 0.53488374, y: 0.4651163}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04579fc7b66744d43928c4e6f5c3f0ec
+      internalID: 33324883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_47
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 947
+        width: 40
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4651163}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd99dc794c5b74aaba457b01bc990c16
+      internalID: -963965439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_48
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 947
+        width: 43
+        height: 43
+      alignment: 9
+      pivot: {x: 0.4651163, y: 0.4651163}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e312c0bb89d483bb7d99eca4e6e65b
+      internalID: -942445455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_49
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 906
+        width: 43
+        height: 40
+      alignment: 9
+      pivot: {x: 0.53488374, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb3657c1864a4a57a72a1ae10fbf64e
+      internalID: 1685354763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_50
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 906
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d032b3823f92a49a78016a1de8f93490
+      internalID: -679928673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 906
+        width: 43
+        height: 40
+      alignment: 9
+      pivot: {x: 0.4651163, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6b029970f9c49c8b2c66c28b58d09e
+      internalID: 1546894398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_52
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 862
+        width: 43
+        height: 43
+      alignment: 9
+      pivot: {x: 0.4651163, y: 0.53488374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 589993bc89e8f4c788460ace040c1114
+      internalID: 1474141545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_53
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 862
+        width: 40
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.53488374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2fb2a3c1e364554bf205be63440351
+      internalID: 1765320683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_54
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 862
+        width: 43
+        height: 43
+      alignment: 9
+      pivot: {x: 0.53488374, y: 0.53488374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c1aa184d2ff406ab5e5609f3bae793
+      internalID: -1430772228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_55
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 947
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb4d2c08bbce4ea29ae0a8b35171189
+      internalID: 1705324283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_56
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 944
+        width: 40
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.53488374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8476c83445c4698993df1679898faa
+      internalID: 1400952795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_57
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 947
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b4f0f145ef94d65b329c349e3179d6
+      internalID: -737605376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_58
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 903
+        width: 43
+        height: 40
+      alignment: 9
+      pivot: {x: 0.53488374, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25bbb483f912a4caaa0337556534fbff
+      internalID: -19788919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_59
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 903
+        width: 43
+        height: 40
+      alignment: 9
+      pivot: {x: 0.4651163, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47abb655d5b14892a8bd10abc8a7fa3
+      internalID: 224476573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_60
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 859
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3216805ead1417c918ccafce984d2f
+      internalID: 1244516788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_61
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 859
+        width: 40
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4651163}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4a1df87c2444ee9a79034176e8adac
+      internalID: 1270895864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_62
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 859
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b56d7b847f4a456cb4f0224cd1ccd58
+      internalID: -545891404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_63
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 947
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e16f64739f0cf4aa6947f16fa1de62c7
+      internalID: -740381253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_64
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 947
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27cbe698acda7495a87f5d6e2d54fa8d
+      internalID: 1318239696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_65
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 947
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359b79351ed5640939a4dea97bc3dcd8
+      internalID: -244853666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_66
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 906
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1965c8922ed47480faef5f4b7e50c7a1
+      internalID: -2044281717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_67
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 906
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0cb17e6f0044018ba476f3d9d5adb3
+      internalID: 994865376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_68
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 906
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e811ee30569f34376ae888683735297f
+      internalID: 1478083374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_69
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 810
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae11f3d51987477982410fedf5d788c
+      internalID: -1181667704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_70
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 810
+        width: 43
+        height: 46
+      alignment: 9
+      pivot: {x: 0.53488374, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ec5040492f449b29300b43d2bcb7f2
+      internalID: 1449282995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_71
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 810
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc235d80bca904711bde18652979249d
+      internalID: -1256821549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_72
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 810
+        width: 43
+        height: 46
+      alignment: 9
+      pivot: {x: 0.4651163, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9a6b31d917c4a1096b49be2356fbb3
+      internalID: -1009571881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_73
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 814
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -20, y: -20}
+        - {x: -2, y: 5}
+        - {x: 20, y: 20}
+        - {x: 20, y: -20}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42aa0072649a847b59d57a6ea593db08
+      internalID: 626898729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_enviro_v2_dayshade_74
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 814
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -20, y: -20}
+        - {x: -20, y: 20}
+        - {x: 2, y: 5}
+        - {x: 20, y: -20}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462b9918a04624543846df591734e781
+      internalID: -347776592
       vertices: []
       indices: 
       edges: []
@@ -168,8 +1709,81 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Spritesheet_enviro_v2_dayshade_10: -150441943
+      Spritesheet_enviro_v2_dayshade_24: -834189003
+      Spritesheet_enviro_v2_dayshade_18: 725045203
+      Spritesheet_enviro_v2_dayshade_48: -942445455
+      Spritesheet_enviro_v2_dayshade_74: -347776592
+      Spritesheet_enviro_v2_dayshade_45: -1565284214
+      Spritesheet_enviro_v2_dayshade_73: 626898729
+      Spritesheet_enviro_v2_dayshade_60: 1244516788
+      Spritesheet_enviro_v2_dayshade_42: 1696047263
+      Spritesheet_enviro_v2_dayshade_49: 1685354763
+      Spritesheet_enviro_v2_dayshade_22: -963702322
+      Spritesheet_enviro_v2_dayshade_54: -1430772228
+      Spritesheet_enviro_v2_dayshade_15: -1502088658
       Spritesheet_enviro_v2_dayshade_1: -1533590796
+      Spritesheet_enviro_v2_dayshade_64: 1318239696
+      Spritesheet_enviro_v2_dayshade_29: 1693062382
+      Spritesheet_enviro_v2_dayshade_63: -740381253
+      Spritesheet_enviro_v2_dayshade_69: -1181667704
+      Spritesheet_enviro_v2_dayshade_44: -797401603
+      Spritesheet_enviro_v2_dayshade_50: -679928673
+      Spritesheet_enviro_v2_dayshade_23: 1622232171
+      Spritesheet_enviro_v2_dayshade_70: 1449282995
+      Spritesheet_enviro_v2_dayshade_4: -1354854660
+      Spritesheet_enviro_v2_dayshade_6: -2035333503
+      Spritesheet_enviro_v2_dayshade_14: 2146125237
+      Spritesheet_enviro_v2_dayshade_17: -1669256436
+      Spritesheet_enviro_v2_dayshade_33: -489570457
+      Spritesheet_enviro_v2_dayshade_27: 571899578
+      Spritesheet_enviro_v2_dayshade_67: 994865376
+      Spritesheet_enviro_v2_dayshade_19: -991255982
+      Spritesheet_enviro_v2_dayshade_9: 1420600572
+      Spritesheet_enviro_v2_dayshade_68: 1478083374
+      Spritesheet_enviro_v2_dayshade_52: 1474141545
+      Spritesheet_enviro_v2_dayshade_35: 634642634
+      Spritesheet_enviro_v2_dayshade_56: 1400952795
+      Spritesheet_enviro_v2_dayshade_7: -2135400830
+      Spritesheet_enviro_v2_dayshade_28: -325446615
+      Spritesheet_enviro_v2_dayshade_72: -1009571881
+      Spritesheet_enviro_v2_dayshade_41: -1566364119
+      Spritesheet_enviro_v2_dayshade_51: 1546894398
+      Spritesheet_enviro_v2_dayshade_65: -244853666
+      Spritesheet_enviro_v2_dayshade_38: 626874791
+      Spritesheet_enviro_v2_dayshade_12: 1788876062
+      Spritesheet_enviro_v2_dayshade_31: 952980853
+      Spritesheet_enviro_v2_dayshade_58: -19788919
+      Spritesheet_enviro_v2_dayshade_36: 434805094
+      Spritesheet_enviro_v2_dayshade_20: 2097508125
+      Spritesheet_enviro_v2_dayshade_30: 514835279
+      Spritesheet_enviro_v2_dayshade_39: -1222758657
+      Spritesheet_enviro_v2_dayshade_55: 1705324283
+      Spritesheet_enviro_v2_dayshade_40: 886683275
+      Spritesheet_enviro_v2_dayshade_8: 257730310
+      Spritesheet_enviro_v2_dayshade_59: 224476573
+      Spritesheet_enviro_v2_dayshade_61: 1270895864
+      Spritesheet_enviro_v2_dayshade_53: 1765320683
+      Spritesheet_enviro_v2_dayshade_34: 951750492
+      Spritesheet_enviro_v2_dayshade_43: 1600684172
       Spritesheet_enviro_v2_dayshade_0: -278846821
+      Spritesheet_enviro_v2_dayshade_32: -1794430991
+      Spritesheet_enviro_v2_dayshade_11: -1584424669
+      Spritesheet_enviro_v2_dayshade_71: -1256821549
+      Spritesheet_enviro_v2_dayshade_5: -1945100245
+      Spritesheet_enviro_v2_dayshade_21: -2012898293
+      Spritesheet_enviro_v2_dayshade_26: 1165304152
+      Spritesheet_enviro_v2_dayshade_46: 33324883
+      Spritesheet_enviro_v2_dayshade_37: 1324804037
+      Spritesheet_enviro_v2_dayshade_13: 628762566
+      Spritesheet_enviro_v2_dayshade_16: -1283249954
+      Spritesheet_enviro_v2_dayshade_47: -963965439
+      Spritesheet_enviro_v2_dayshade_2: 1533048158
+      Spritesheet_enviro_v2_dayshade_25: 1103352331
+      Spritesheet_enviro_v2_dayshade_66: -2044281717
+      Spritesheet_enviro_v2_dayshade_57: -737605376
+      Spritesheet_enviro_v2_dayshade_3: 830733763
+      Spritesheet_enviro_v2_dayshade_62: -545891404
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
