@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 4739678632095504236}
   - component: {fileID: 4739678632095504238}
   - component: {fileID: 4739678632095504232}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RatBoy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -189,7 +189,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.039192915, y: 0.1265552}
+  m_Offset: {x: -0.21524322, y: 0.1265552}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -200,7 +200,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.891397, y: 0.2531104}
+  m_Size: {x: 0.5392835, y: 0.2531104}
   m_EdgeRadius: 0.01
 --- !u!1 &4739678632560246616
 GameObject:
@@ -213,7 +213,7 @@ GameObject:
   - component: {fileID: 4739678632560246619}
   - component: {fileID: 4739678632560246618}
   - component: {fileID: 4739678632560246597}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: _WallDetector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -285,7 +285,7 @@ GameObject:
   - component: {fileID: 4739678632612026156}
   - component: {fileID: 4739678632612026159}
   - component: {fileID: 4739678632612026158}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: _Attack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -320,7 +320,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.5932375, y: 0.1310239}
+  m_Offset: {x: -0.34269357, y: 0.1140244}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -331,7 +331,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.39846778, y: 0.26204777}
+  m_Size: {x: 0.8995557, y: 0.29604673}
   m_EdgeRadius: 0
 --- !u!114 &4739678632612026158
 MonoBehaviour:
@@ -357,7 +357,7 @@ GameObject:
   - component: {fileID: 4739678633705541205}
   - component: {fileID: 4739678633705541204}
   - component: {fileID: 4739678633705541206}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: _Bonk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -392,7 +392,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.04712224, y: 0.36238003}
+  m_Offset: {x: -0.04712224, y: 0.31988168}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -403,7 +403,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0942445, y: 0.23661804}
+  m_Size: {x: 1.0942445, y: 0.32161474}
   m_EdgeRadius: 0
 --- !u!114 &4739678633705541206
 MonoBehaviour:
