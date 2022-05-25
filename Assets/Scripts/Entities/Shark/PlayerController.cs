@@ -45,7 +45,14 @@ namespace Game.Entities
                 else
                 {
                     // Player is NOT moving
-                    animator.SetAnimation("shark_idle");
+                    if (Input.GetButton("Bark"))
+                    {
+                        animator.SetAnimation("shark_bark");
+                    }
+                    else
+                    {
+                        animator.SetAnimation("shark_idle");
+                    }
                 }
             }
             else

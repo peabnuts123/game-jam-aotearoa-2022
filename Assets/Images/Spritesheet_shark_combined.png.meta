@@ -872,27 +872,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spritesheet_shark_combined_36
-      rect:
-        serializedVersion: 2
-        x: 550
-        y: 783
-        width: 40
-        height: 40
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: abb3df107aa9c48aca63520a41977ff1
-      internalID: -1885841331
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Spritesheet_shark_combined_37
       rect:
         serializedVersion: 2
@@ -1140,27 +1119,6 @@ TextureImporter:
       bones: []
       spriteID: 6df6f782617c24b42a6bbee8356fa669
       internalID: -92153519
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Spritesheet_shark_combined_49
-      rect:
-        serializedVersion: 2
-        x: 550
-        y: 742
-        width: 40
-        height: 40
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9e83d29be569f49dc9645315e42af636
-      internalID: -1017677895
       vertices: []
       indices: 
       edges: []

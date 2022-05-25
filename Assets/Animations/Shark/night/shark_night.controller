@@ -91,7 +91,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: shark
+  m_Name: shark_night
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:
@@ -139,7 +139,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 879e17a6e942b4bc28231235d92b4f8a, type: 2}
+  m_Motion: {fileID: 7400000, guid: 7a6fee7d9274345c080a0b1f505d2dfe, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -165,7 +165,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: a74367d654ab74c25b48d37cfcae0e01, type: 2}
+  m_Motion: {fileID: 7400000, guid: 3955ce3a157ec4992aba439d35cf97ae, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -191,7 +191,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 85dcb6423dc454abc932469e9ec5e5cb, type: 2}
+  m_Motion: {fileID: 7400000, guid: f251f36440a9949679188e506c429d24, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -217,7 +217,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 0c74269c36267468c844746316c28628, type: 2}
+  m_Motion: {fileID: 7400000, guid: 9ce3817a1782445cd8b01a288796c63d, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -243,7 +243,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 5d1a19e7d96b241d3a90461f3a0a1855, type: 2}
+  m_Motion: {fileID: 7400000, guid: 7471d263268ed43e0afdbd9e07744f09, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

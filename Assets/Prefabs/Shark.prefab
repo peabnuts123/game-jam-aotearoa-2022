@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1568176874}
   - component: {fileID: 1568176875}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: _GroundDetector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -76,7 +76,8 @@ GameObject:
   - component: {fileID: 4104836127091499664}
   - component: {fileID: 4104836127091499679}
   - component: {fileID: 4104836127091499678}
-  m_Layer: 0
+  - component: {fileID: 139904387}
+  m_Layer: 3
   m_Name: Shark
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -291,6 +292,21 @@ MonoBehaviour:
   jumpTestCollider: {fileID: 1682333260}
   jumpVelocity: 25
   fallGravity: 8
+--- !u!114 &139904387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4104836127091499624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b9324b122673459bb66ef5ce5665229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dayController: {fileID: 9100000, guid: 9a399bb7254064a4d87130605262698d, type: 2}
+  nightController: {fileID: 9100000, guid: 942adeedb70db42b3a92793259f7150a, type: 2}
+  animator: {fileID: 4104836127091499669}
 --- !u!1 &4104836128941531632
 GameObject:
   m_ObjectHideFlags: 0
@@ -301,7 +317,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4104836128941531647}
   - component: {fileID: 1682333260}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: _JumpTestDetector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
