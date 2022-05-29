@@ -1,4 +1,5 @@
 using Game.Components;
+using Game.UI;
 using UnityEngine;
 using Zenject;
 
@@ -16,6 +17,9 @@ namespace Game.Entities
         [NotNull]
         [SerializeField]
         private Jumpable jumpable;
+        [NotNull(IgnorePrefab = true)]
+        [SerializeField]
+        private PlayerHealthDisplayController playerHealthDisplayController;
 
         // Private references
         [Inject]
@@ -24,6 +28,12 @@ namespace Game.Entities
         // Private state
         private bool invulnerable = false;
         private bool frozen = false;
+        private int health = 3;
+
+        void Start()
+        {
+            playerHealthDisplayController.SetNumberOfLives(health);
+        }
 
         void Update()
         {
@@ -71,7 +81,18 @@ namespace Game.Entities
         {
             if (!invulnerable)
             {
+                // Take damage
+                health -= 1;
+                playerHealthDisplayController.SetNumberOfLives(health);
+                if (health == 0)
+                {
+                    Debug.Log("Shark woke up from a dream!");
+                }
+
+                // Push away
                 rigidBody.AddForce((transform.position - other.transform.position + Vector3.up).WithLength(2000), ForceMode2D.Impulse);
+
+                // Play animation
                 animator.SetAnimation("shark_damage", layer: 1, interruptable: false);
 
                 // I frames
